@@ -1,0 +1,13 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nuxt build ./packages/issue",
+    "dev": "nuxt dev ./packages/issue",
+    "generate": "nuxt generate ./packages/issue",
+    "preview": "nuxt preview ./packages/issue"
+  },
+  "workspaces": [
+    "packages/**"
+  ],
+  "packageManager": "yarn@3.2.2"
+}
